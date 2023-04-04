@@ -33,11 +33,11 @@ git merge main<br />
 // commit changes
 
 ## useful log commands
-// condense commit logs to a a single line list, includes full commit has
-git log --pretty=oneline
+// condense commit logs to a a single line list, includes full commit hash<br />
+git log --pretty=oneline<br />
 ![one line log example](https://user-images.githubusercontent.com/24556536/229687669-832d3e28-1d47-45df-a20c-bd5431d6d242.png)
 
 
-// create a color coded visual graph with date, short commit hash, messages, and user (recommended to set as alias)
-git config --global alias.hist "log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold blue){{%an}}%C(reset) %C(yellow)%d%C(reset)' --graph --date=short"
+// create a color coded visual graph with date, short commit hash, messages, and user (recommended to set as alias)<br />
+git config --global alias.hist "log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold blue){{%an}}%C(reset) %C(yellow)%d%C(reset)' --graph --date=short"<br />
 ![customized graphic log example](https://user-images.githubusercontent.com/24556536/229687297-a79812cc-2301-40db-85ad-ac6e614107cf.png)
